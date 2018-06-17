@@ -1,0 +1,275 @@
+/* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css"
+@import "./vars"
+@import "./fonts"
+@import "./mixins"
+
+
+[v-cloak]
+  display: none
+
+html, body
+  height: 100%
+  margin: 0
+
+.hb-logo img
+  margin-top: -25px
+
+.dirt
+  background: url("/assets/images/dirt.png")
+  background-size: cover
+  background-position: 50% 50%
+  background-repeat: no-repeat
+  position: fixed
+  top: 0
+  left: 0
+  width: 100%
+  height: 100%
+  display: block
+
+.dirt-white
+  background: url("/assets/images/dirt-white.png")
+  background-size: cover
+  background-position: 50% 50%
+  background-repeat: no-repeat
+  position: fixed
+  top: 0
+  left: 0
+  width: 100%
+  height: 100%
+  display: block
+  z-index: 10
+  pointer-events: none
+  opacity: 0.3
+
+#page-wrap
+  height: 100%
+  height: auto !important
+  min-height: 100%
+  position: relative
+  padding-bottom: 0px
+  header
+    position: absolute
+    top: 0
+    left: 0
+    background: transparent
+    width: 100%
+    z-index: 2
+    padding: 3.5rem 2rem
+    .run-party-menu
+      width: 25% !important
+      flex-direction: row-reverse !important
+      span.separator
+        color: initial
+        height: 40px
+        padding: 8px 0px
+      a
+        width: auto
+        margin-right: 0px !important
+        &:hover, &.active
+          span
+            font-family: 'Geogrotesque-Bold'
+    a
+      width: 103px
+      height: 40px
+      text-align: center
+      position: relative
+      font-family: 'Geogrotesque-Regular'
+      font-size: 16px
+      .red
+        background: url(/assets/images/menu-over.png)
+        background-position: 50% 50%
+        background-repeat: no-repeat
+        width: 103px
+        height: 40px
+        display: block
+        visibility: hidden
+        position: absolute
+        top: 0
+        left: 0
+        z-index: 0
+      span
+        z-index: 1
+        position: relative
+      cursor: pointer
+      color: black
+      font-family: 'Geogrotesque-Regular'
+      font-size: 16px
+      &:hover
+        .red
+          visibility: visible
+      &.active
+        .red
+          visibility: visible
+    .dropdown-menu.account-menu
+      left: auto
+      right: 0px
+
+#page-footer
+  height: $footer-height
+  width: 100%
+  color: red
+  position: absolute
+  left: 0px
+  bottom: 0px
+  background: transparent
+  &.footer-white
+    position: relative
+  .instagram-hb
+    text-decoration: none
+    font-family: 'Geogrotesque-Bold'
+    font-size: 10px
+    margin-right: 70px
+    cursor: pointer
+    img
+      margin-right: 5px
+    span
+      font-family: 'Geogrotesque-Regular'
+  .xs-only
+    display: none
+  #play-pause
+    cursor: pointer
+    width: 16px
+    height: 23px
+    display: block !important
+    background-repeat: no-repeat !important
+    background-position: 0 0 !important
+    margin-left: 70px
+    &.white
+      background-image: url("/assets/images/sound-white.png") !important
+    &.white.off
+      background-image: url("/assets/images/sound-off.png") !important
+    &.black
+      background-image: url("/assets/images/sound-black.png") !important
+    &.black.off
+      background-image: url("/assets/images/sound-off.png") !important
+
+@media #{$smartphones}
+  html, body
+    width: 100%
+    min-height: 100%
+  #page-wrap
+    width: 100%
+    height: 100% !important
+    overflow: hidden
+    &.white
+      overflow: auto
+    #page-header
+      display: none
+      background-color: #000
+      text-align: center
+      &.active
+        display: block !important
+      &.white
+        background-color: #fff
+        border-bottom: 1px solid #000
+        #close-menu
+          position: absolute
+          right: 20px
+          bottom: 20px
+          img
+            filter: invert(100%)
+        a
+          margin-right: auto !important
+          margin-left: auto !important
+          &.active
+            span
+              color: black !important
+      .hb-logo
+        img
+          width: 100%
+          height: auto
+      #close-menu
+        position: absolute
+        right: 20px
+        bottom: 20px
+      a
+        margin-right: auto !important
+        margin-left: auto !important
+        &.active
+          span
+            color: red !important
+      .run-party-menu
+        width: auto !important
+        margin-left: auto
+        margin-right: auto
+        a.active
+          span
+            color: red !important
+    #page-header-mobile
+      background-color: transparent
+      position: fixed
+      left: 0
+      width: 100%
+      top: 0
+      z-index: 1
+      height: 10%
+      padding: 0
+      padding-top: 3%
+      padding-left: 3%
+      padding-right: 3%
+      .hb-current
+        font-family: 'Geogrotesque-Bold'
+        font-size: 10vw
+        line-height: 8vw
+        padding-top: 5vw
+        color: black
+        display: none
+        position: absolute
+        right: 10%
+        text-align: right
+        top: 0
+        &.white
+          color: white
+        &.active
+          display: block
+      .hb-menu-btn
+        position: absolute
+        height: 60%
+        padding: 0
+        right: -5%
+        cursor: pointer
+        img
+          height: 90%
+          margin-top: 10%
+          width: auto
+        &.black
+          img
+            filter: invert(100%)
+      .hb-logo
+        height: 100%
+        padding: 0
+        width: auto
+        img
+          margin: 0
+          height: 100%
+          width: auto
+    #page-footer
+      height: 23px
+      padding-top: 0
+      padding-bottom: 0
+      margin-bottom: 2%
+      #play-pause
+        margin-left: 0
+        position: absolute
+        right: 3%
+        &.white
+          background-image: url("/assets/images/sound-white.png") !important
+        &.white.off
+          background-image: url("/assets/images/sound-off.png") !important
+        &.black
+          background-image: url("/assets/images/sound-black.png") !important
+        &.black.off
+          background-image: url("/assets/images/sound-off.png") !important
+      .nav
+        position: absolute
+        left: 3%
+        .instagram-hb
+          margin-right: 0px
+      .xs-only
+        display: block
+
+
+
+

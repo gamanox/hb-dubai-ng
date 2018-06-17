@@ -1,0 +1,30 @@
+
+      <div class="navbar d-block d-md-none" id="page-header-mobile">
+        <a routerLink="/" class="navbar-brand mr-0 hb-logo "><img src="/assets/images/highbeamsdubai-menu-logo.png" alt=""></a>
+        <!-- <p class="active white hb-current" id="hb-current-parties">HOME</p> -->
+        <div id="menu-btn-mobile" class="navbar-brand mr-0 hb-menu-btn" onclick="openMenu()">
+          <img src="/assets/images/hb-menu-btn.svg" alt="">
+        </div> 
+      </div>
+      <header id="page-header" class="navbar navbar-expand-sm navbar-dark flex-column flex-md-row justify-content-between">
+        
+        <a class="navbar-brand mr-0 hb-logo" routerLink="/" id="menu-logo"><img src="/assets/images/highbeamsdubai-menu-logo.png" alt=""></a>
+        <a class="nav-item nav-link ml- ml-md-0 mr-0" routerLink="/" id="menu-map"><div class="red"></div><span style="color: white;">MAP</span></a>
+        <a class="nav-item nav-link ml- ml-md-0 mr-0" routerLink="/features"  id="menu-blog"><div class="red"></div><span style="color: white;">FEATURES</span></a>
+        <a class="nav-item nav-link ml- ml-md-0 mr-0" routerLink="/schedules" id="menu-schedule"><div class="red"></div><span style="color: white;">SCHEDULE</span></a>
+        <a class="nav-item nav-link ml- ml-md-0 mr-0" routerLink="/gallery" id="menu-gallery"><div class="red"></div><span style="color: white;">GALLERY</span></a>
+        <a class="nav-item nav-link ml- ml-md-0 mr-0" routerLink="/about" id="menu-about"><div class="red"></div><span style="color: white;">ABOUT</span></a>
+        <div class="navbar-nav flex-row run-party-menu">
+          
+          <a id="menu-party" class="nav-item black nav-link ml-0 ml-md-0 mr-0" routerLink="/party" routerLinkActive="active"><span style="color: white;">PARTY</span></a>
+          <span class="separator"  style="color: white;">|</span>
+          <a id="menu-run" class="nav-item black nav-link ml-0 ml-md-0 mr-0" routerLink="/run" ><span style="color: white;">RUN</span> </a>
+          <!-- Only in desktop nav -->
+          <!-- <div class="form-inline d-none ml-2 d-md-block" >
+            <a class="btn btn-outline-info" href="/signup">Sign up</a>
+          </div> -->
+          <!-- Only in mobile nav -->
+          <!-- <a class="nav-item nav-link text-info ml-2 d-block d-md-none" href="/signup">Sign up</a> -->
+        </div>
+        <div id="close-menu" class="d-block d-md-none" onclick="closeMenu()"><img src="/assets/images/hb-close-menu-btn.svg" alt=""></div>
+      </header>

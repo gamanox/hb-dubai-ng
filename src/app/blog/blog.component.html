@@ -1,0 +1,29 @@
+<div class="dirt"></div>
+<div id="page-wrap" class="white">
+  <app-header-white></app-header-white>
+<div id="blog">
+  <div id="grids-gallery" class="grids-gallery">
+  	<div class="container">
+  			
+  				  	<section class="grids-wrap">
+  				  	<div class="grids row">
+  				  		<!-- <li class="grids-sizer"></li> -->
+  						
+  						<div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-3" *ngFor="let feed of feeds"><a href="{{feed.link}}" target="_blank">
+  							<figure>
+  								<img src="{{feed.thumbnail}}" alt="">
+  								<figcaption><h3>{{feed.title}}</h3></figcaption>
+  							</figure>
+  							</a>
+  						</div>
+  							
+  						
+  				  	</div>
+  				  	</section>
+  			
+  	</div>
+  </div>
+</div>
+<div class="dirt-white"></div>
+<app-footer-white></app-footer-white>
+</div>
