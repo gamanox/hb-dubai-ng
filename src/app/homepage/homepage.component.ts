@@ -11,12 +11,13 @@ import * as $ from 'jquery';
 export class HomepageComponent implements OnInit {
 
   constructor() { 
-  	console.log('test');
   }
 
   ngOnInit() {
   	this.setHeroHeight();
   }
+
+  
 
   setHeroHeight(): void {
 	  var hero = $('[full-page-hero]');

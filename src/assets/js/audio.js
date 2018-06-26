@@ -60,3 +60,8 @@ function update()
     setCookie('timePlayed', song.currentTime);
     }
 }
+
+function playSong(){
+  setInterval(update,10);
+    
+  }

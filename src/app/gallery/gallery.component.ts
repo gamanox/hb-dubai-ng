@@ -4,6 +4,7 @@ import { FooterWhiteComponent } from '../footer-white/footer-white.component';
 
 import * as $ from 'jquery';
 
+
 @Component({
   selector: 'app-gallery',
   templateUrl: './gallery.component.html',
@@ -11,36 +12,22 @@ import * as $ from 'jquery';
 })
 export class GalleryComponent implements OnInit {
 
-// public loadMason() {
-//             let body = <HTMLDivElement> document.body;
-//             let script = document.createElement('script');
-//             script.innerHTML = '';
-//             script.src = '/assets/js/mason.js';
-//             script.async = true;
-//             script.defer = true;
-//             body.prepend(script);
-//     }
-// public loadImgsLoaded() {
-//             let body = <HTMLDivElement> document.body;
-//             let script = document.createElement('script');
-//             script.innerHTML = '';
-//             script.src = '/assets/js/imgsloaded.js';
-//             script.async = true;
-//             script.defer = true;
-//             body.prepend(script);
-//     }
 
-  constructor() { }
+  
+
+  constructor() { 
+   
+  }
 
   ngOnInit() {
   	// this.loadMason();
   	// this.loadImgsLoaded();
   	this.setHeroHeight();
+
   }
 
 
   setHeroHeight() {
-
     var hero = $('[full-page-hero]');
     var headerHeight = $('#page-header').outerHeight();
     var heightToSet = $(window).height();
