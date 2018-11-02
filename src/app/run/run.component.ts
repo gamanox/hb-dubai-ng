@@ -22,28 +22,28 @@ export class RunComponent implements OnInit {
     {
       position: '25.185298, 55.252967',
       title: 'DUBAI CANAL',
-      description: 'October 2 & 30 | DM @highbeamsdubai for invite details',
+      description: 'November 6 | DM @highbeamsdubai for invite details',
       type: 'run',
       url: 'https://goo.gl/maps/zkc5VNVHLDR2'
     },
     {
       position: '25.148110, 55.197634',
       title: 'UMM SUQIEM',
-      description: 'October 9 | DM @highbeamsdubai for invite details',
+      description: 'November 13 | DM @highbeamsdubai for invite details',
       type: 'run',
       url: 'https://goo.gl/maps/wnvVv8V9SW62'
     },
     {
       position: '25.234254, 55.264469',
       title: 'JUMEIRAH 1',
-      description: 'October 16 | DM @highbeamsdubai for invite details',
+      description: 'November 20 | DM @highbeamsdubai for invite details',
       type: 'run',
       url: 'https://goo.gl/maps/NaDnkpC6g5p'
     },
     {
       position: '25.184673, 55.238369',
       title: '36 CHAMBERS',
-      description: 'October 23 | DM @highbeamsdubai for invite details',
+      description: 'November 27 | DM @highbeamsdubai for invite details',
       type: 'run',
       url: 'https://goo.gl/maps/n6b1tyKkH9t'
     }
