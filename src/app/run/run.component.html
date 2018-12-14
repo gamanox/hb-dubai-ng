@@ -5,10 +5,11 @@
 
         </div>
         <div class="info-box">
-            <p class="title">DUBAI SPORTS WORLD </p>
+            <p class="title">{{currentMarker.title}}</p>
             <p class="info">
-                Dubai World Trade Centre | Sunday & Thursday | DM <a href="http://instagram.com/highbeamsdubai" target="_blank">@highbeamsdubai</a> for invites
+                {{currentMarker.description}}
             </p>
+            <div id="next-event" (click)="nextMarker()">SHOW NEXT EVENT</div>
         </div>
 
     </div>
