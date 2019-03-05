@@ -1,682 +1,212 @@
-<div class="dirt">
-</div>
+<div class="dirt"></div>
 <div id="page-wrap" class="white">
-    <app-header-white></app-header-white>
-    <div id="gallery">
-        <div class="hero d-flex flex-column" full-page-hero>
-            <!-- <img src="/assets/images/highbeamsdubai-gallery-background.png" width="100%" height="auto" alt=""> -->
+  <app-header-white></app-header-white>
+  <div id="gallery">
+    <div class="hero d-flex flex-column" full-page-hero>
+      <!-- <img src="/assets/images/highbeamsdubai-gallery-background.png" width="100%" height="auto" alt=""> -->
 
-            <div class="container">
-
-                <div class="row">
-                    <div class="col">
-
-                        <div class="grid">
-
-                            <!--  <div class="grid-item" *ngFor="let image of images">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="grid">
+              <!--  <div class="grid-item" *ngFor="let image of images">
             <div class="red"></div><div class="description"><p>{{image.act}}</p><p>{{image.place}}</p></div>
             <img [src]="image.src" />
           </div> -->
-                            <div class="renglon">
-                                <div class="columna">
-                                    <div class="grid-item">
-                                        <div class="red"></div>
-                                        <div class="description">
-                                            <p>RUN</p>
-                                            <p>Dubai Canal</p>
-                                        </div>
-                                        <img src="/assets/images/gallery/run-dubaicanal-01.jpg" />
-                                    </div>
-                                    <div class="grid-item">
-                                        <div class="red"></div>
-                                        <div class="description">
-                                            <p>RUN</p>
-                                            <p>Dubai Canal</p>
-                                        </div>
-                                        <img src="/assets/images/gallery/run-dubaicanal-02.jpg" />
-                                    </div>
-                                    <div class="grid-item">
-                                        <div class="red"></div>
-                                        <div class="description">
-                                            <p>RUN</p>
-                                            <p>Dubai Canal</p>
-                                        </div>
-                                        <img src="/assets/images/gallery/run-dubaicanal-03.jpg" />
-                                    </div>
-                                    <div class="grid-item">
-                                        <div class="red"></div>
-                                        <div class="description">
-                                            <p>RUN</p>
-                                            <p>Satwa</p>
-                                        </div>
-                                        <img src="/assets/images/gallery/run-satwa-01.jpg" />
-                                    </div>
-                                    <div class="grid-item">
-                                        <div class="red"></div>
-                                        <div class="description">
-                                            <p>RUN</p>
-                                            <p>Satwa</p>
-                                        </div>
-                                        <img src="/assets/images/gallery/run-satwa-02.jpg" />
-                                    </div>
-                                    <div class="grid-item">
-                                        <div class="red"></div>
-                                        <div class="description">
-                                            <p>RUN</p>
-                                            <p>Satwa</p>
-                                        </div>
-                                        <img src="/assets/images/gallery/run-satwa-03.jpg" />
-                                    </div>
-                                    <div class="grid-item">
-                                        <div class="red"></div>
-                                        <div class="description">
-                                            <p>TRAINING</p>
-                                            <p>Transform Altitude Gym</p>
-                                        </div>
-                                        <img src="/assets/images/gallery/training-tagym-01.jpg" />
-                                    </div>
-                                    <div class="grid-item">
-                                        <div class="red"></div>
-                                        <div class="description">
-                                            <p>TRAINING</p>
-                                            <p>Transform Altitude Gym</p>
-                                        </div>
-                                        <img src="/assets/images/gallery/training-tagym-02.jpg" />
-                                    </div>
-                                    <div class="grid-item">
-                                        <div class="red"></div>
-                                        <div class="description">
-                                            <p>TRAINING</p>
-                                            <p>Transform Altitude Gym</p>
-                                        </div>
-                                        <img src="/assets/images/gallery/training-tagym-03.jpg" />
-                                    </div>
-                                    <div class="grid-item">
-                                        <div class="red"></div>
-                                        <div class="description">
-                                            <p>TRAINING</p>
-                                            <p>36 Chambers</p>
-                                        </div>
-                                        <img src="/assets/images/gallery/train-36ch-01.jpg" />
-                                    </div>
-                                    <div class="grid-item">
-                                        <div class="red"></div>
-                                        <div class="description">
-                                            <p>TRAINING</p>
-                                            <p>36 Chambers</p>
-                                        </div>
-                                        <img src="/assets/images/gallery/train-36ch-02.jpg" />
-                                    </div>
-                                    <div class="grid-item">
-                                        <div class="red"></div>
-                                        <div class="description">
-                                            <p>TRAINING</p>
-                                            <p>Renaissance Hotel</p>
-                                        </div>
-                                        <img src="/assets/images/gallery/train-01.jpg" />
-                                    </div>
-                                    <div class="grid-item">
-                                        <div class="red"></div>
-                                        <div class="description">
-                                            <p>TRAINING</p>
-                                            <p>Renaissance Hotel</p>
-                                        </div>
-                                        <img src="/assets/images/gallery/train-02.jpg" />
-                                    </div>
-                                    <div class="grid-item">
-                                        <div class="red"></div>
-                                        <div class="description">
-                                            <p>TRAINING</p>
-                                            <p>Renaissance Hotel</p>
-                                        </div>
-                                        <img src="/assets/images/gallery/train-03.jpg" />
-                                    </div>
-                                    <div class="grid-item">
-                                        <div class="red"></div>
-                                        <div class="description">
-                                            <p>RUN</p>
-                                            <p>Sports City</p>
-                                        </div>
-                                        <img src="/assets/images/gallery/run-track-01.jpg" />
-                                    </div>
-                                    <div class="grid-item">
-                                        <div class="red"></div>
-                                        <div class="description">
-                                            <p>RUN</p>
-                                            <p>Kite Beach</p>
-                                        </div>
-                                        <img src="/assets/images/gallery/run-kite-05.jpg" />
-                                    </div>
-                                    <div class="grid-item">
-                                        <div class="red"></div>
-                                        <div class="description">
-                                            <p>HIGH BEAMS TAKEOVER</p>
-                                            <p>Miss Lily's</p>
-                                        </div>
-                                        <img src="/assets/images/gallery/takeover-tingaling-01.jpg" />
-                                    </div>
-
-                                    <div class="grid-item">
-                                        <div class="red"></div>
-                                        <div class="description">
-                                            <p>RUN</p>
-                                            <p>Sports City</p>
-                                        </div>
-                                        <img src="/assets/images/gallery/run-track-02.jpg" />
-                                    </div>
-                                    <div class="grid-item">
-                                        <div class="red"></div>
-                                        <div class="description">
-                                            <p>HIGH BEAMS TAKEOVER</p>
-                                            <p>Miss Lily's</p>
-                                        </div>
-                                        <img src="/assets/images/gallery/takeover-tingaling-05.jpg" />
-                                    </div>
-                                    <div class="grid-item">
-                                        <div class="red"></div>
-                                        <div class="description">
-                                            <p>RUN</p>
-                                            <p>Capetown</p>
-                                        </div>
-                                        <img src="/assets/images/gallery/run-capetown-01.jpg" />
-                                    </div>
-
-                                    <div class="grid-item">
-                                        <div class="red"></div>
-                                        <div class="description">
-                                            <p>RUN</p>
-                                            <p>Sports City</p>
-                                        </div>
-                                        <img src="/assets/images/gallery/run-track-03.jpg" />
-                                    </div>
-                                    <div class="grid-item">
-                                        <div class="red"></div>
-                                        <div class="description">
-                                            <p>HIGH BEAMS TAKEOVER</p>
-                                            <p>Miss Lily's</p>
-                                        </div>
-                                        <img src="/assets/images/gallery/takeover-tingaling-06.jpg" />
-                                    </div>
-                                    <div class="grid-item">
-                                        <div class="red"></div>
-                                        <div class="description">
-                                            <p>RUN</p>
-                                            <p>Kite Beach</p>
-                                        </div>
-                                        <img src="/assets/images/gallery/run-kite-04.jpg" />
-                                    </div>
-
-                                    <div class="grid-item">
-                                        <div class="red"></div>
-                                        <div class="description">
-                                            <p>HIGH BEAMS TAKEOVER</p>
-                                            <p>Miss Lily's</p>
-                                        </div>
-                                        <img src="/assets/images/gallery/takeover-tingaling-02.jpg" />
-                                    </div>
-                                    <div class="grid-item">
-                                        <div class="red"></div>
-                                        <div class="description">
-                                            <p>RUN</p>
-                                            <p>Dubai Water Canal</p>
-                                        </div>
-                                        <img src="/assets/images/gallery/run-water-canal-01.jpg" />
-                                    </div>
-                                </div>
-
-
-                                <div class="columna">
-                                    <div class="grid-item">
-                                        <div class="red"></div>
-                                        <div class="description">
-                                            <p>RUN</p>
-                                            <p>Dubai Canal</p>
-                                        </div>
-                                        <img src="/assets/images/gallery/run-dubaicanal-04.jpg" />
-                                    </div>
-                                    <div class="grid-item">
-                                        <div class="red"></div>
-                                        <div class="description">
-                                            <p>RUN</p>
-                                            <p>Dubai Canal</p>
-                                        </div>
-                                        <img src="/assets/images/gallery/run-dubaicanal-05.jpg" />
-                                    </div>
-                                    <div class="grid-item">
-                                        <div class="red"></div>
-                                        <div class="description">
-                                            <p>RUN</p>
-                                            <p>Dubai Canal</p>
-                                        </div>
-                                        <img src="/assets/images/gallery/run-dubaicanal-06.jpg" />
-                                    </div>
-                                    <div class="grid-item">
-                                        <div class="red"></div>
-                                        <div class="description">
-                                            <p>RUN</p>
-                                            <p>Satwa</p>
-                                        </div>
-                                        <img src="/assets/images/gallery/run-satwa-04.jpg" />
-                                    </div>
-                                    <div class="grid-item">
-                                        <div class="red"></div>
-                                        <div class="description">
-                                            <p>RUN</p>
-                                            <p>Satwa</p>
-                                        </div>
-                                        <img src="/assets/images/gallery/run-satwa-05.jpg" />
-                                    </div>
-                                    <div class="grid-item">
-                                        <div class="red"></div>
-                                        <div class="description">
-                                            <p>RUN</p>
-                                            <p>Satwa</p>
-                                        </div>
-                                        <img src="/assets/images/gallery/run-satwa-06.jpg" />
-                                    </div>
-                                    <div class="grid-item">
-                                        <div class="red"></div>
-                                        <div class="description">
-                                            <p>TRAINING</p>
-                                            <p>Transform Altitude Gym</p>
-                                        </div>
-                                        <img src="/assets/images/gallery/training-tagym-04.jpg" />
-                                    </div>
-                                    <div class="grid-item">
-                                        <div class="red"></div>
-                                        <div class="description">
-                                            <p>TRAINING</p>
-                                            <p>Transform Altitude Gym</p>
-                                        </div>
-                                        <img src="/assets/images/gallery/training-tagym-05.jpg" />
-                                    </div>
-                                    <div class="grid-item">
-                                        <div class="red"></div>
-                                        <div class="description">
-                                            <p>TRAINING</p>
-                                            <p>Transform Altitude Gym</p>
-                                        </div>
-                                        <img src="/assets/images/gallery/training-tagym-06.jpg" />
-                                    </div>
-                                    <div class="grid-item">
-                                        <div class="red"></div>
-                                        <div class="description">
-                                            <p>TRAINING</p>
-                                            <p>36 Chambers</p>
-                                        </div>
-                                        <img src="/assets/images/gallery/train-36ch-03.jpg" />
-                                    </div>
-                                    <div class="grid-item">
-                                        <div class="red"></div>
-                                        <div class="description">
-                                            <p>TRAINING</p>
-                                            <p>36 Chambers</p>
-                                        </div>
-                                        <img src="/assets/images/gallery/train-36ch-04.jpg" />
-                                    </div>
-                                    <div class="grid-item">
-                                        <div class="red"></div>
-                                        <div class="description">
-                                            <p>TRAINING</p>
-                                            <p>Renaissance Hotel</p>
-                                        </div>
-                                        <img src="/assets/images/gallery/train-04.jpg" />
-                                    </div>
-                                    <div class="grid-item">
-                                        <div class="red"></div>
-                                        <div class="description">
-                                            <p>TRAINING</p>
-                                            <p>Renaissance Hotel</p>
-                                        </div>
-                                        <img src="/assets/images/gallery/train-05.jpg" />
-                                    </div>
-                                    <div class="grid-item">
-                                        <div class="red"></div>
-                                        <div class="description">
-                                            <p>TRAINING</p>
-                                            <p>Renaissance Hotel</p>
-                                        </div>
-                                        <img src="/assets/images/gallery/train-06.jpg" />
-                                    </div>
-                                    <div class="grid-item">
-                                        <div class="red"></div>
-                                        <div class="description">
-                                            <p>HIGH BEAMS TAKEOVER</p>
-                                            <p>Miss Lily's</p>
-                                        </div>
-                                        <img src="/assets/images/gallery/takeover-tingaling-07.jpg" />
-                                    </div>
-                                    <div class="grid-item">
-                                        <div class="red"></div>
-                                        <div class="description">
-                                            <p>RUN</p>
-                                            <p>Kite Beach</p>
-                                        </div>
-                                        <img src="/assets/images/gallery/run-kite-01.jpg" />
-                                    </div>
-
-                                    <div class="grid-item">
-                                        <div class="red"></div>
-                                        <div class="description">
-                                            <p>RUN</p>
-                                            <p>Sports City</p>
-                                        </div>
-                                        <img src="/assets/images/gallery/run-track-05.jpg" />
-                                    </div>
-                                    <div class="grid-item">
-                                        <div class="red"></div>
-                                        <div class="description">
-                                            <p>HIGH BEAMS TAKEOVER</p>
-                                            <p>Miss Lily's</p>
-                                        </div>
-                                        <img src="/assets/images/gallery/takeover-tingaling-03.jpg" />
-                                    </div>
-
-                                    <div class="grid-item">
-                                        <div class="red"></div>
-                                        <div class="description">
-                                            <p>RUN</p>
-                                            <p>Sports City</p>
-                                        </div>
-                                        <img src="/assets/images/gallery/run-track-06.jpg" />
-                                    </div>
-                                    <div class="grid-item">
-                                        <div class="red"></div>
-                                        <div class="description">
-                                            <p>HIGH BEAMS TAKEOVER</p>
-                                            <p>Miss Lily's</p>
-                                        </div>
-                                        <img src="/assets/images/gallery/takeover-tingaling-08.jpg" />
-                                    </div>
-                                    <div class="grid-item">
-                                        <div class="red"></div>
-                                        <div class="description">
-                                            <p>RUN</p>
-                                            <p>Capetown</p>
-                                        </div>
-                                        <img src="/assets/images/gallery/run-capetown-02.jpg" />
-                                    </div>
-
-                                    <div class="grid-item">
-                                        <div class="red"></div>
-                                        <div class="description">
-                                            <p>RUN</p>
-                                            <p>Sports City</p>
-                                        </div>
-                                        <img src="/assets/images/gallery/run-track-07.jpg" />
-                                    </div>
-                                    <div class="grid-item">
-                                        <div class="red"></div>
-                                        <div class="description">
-                                            <p>RUN</p>
-                                            <p>Dubai Water Canal</p>
-                                        </div>
-                                        <img src="/assets/images/gallery/run-water-canal-02.jpg" />
-                                    </div>
-
-                                    <div class="grid-item">
-                                        <div class="red"></div>
-                                        <div class="description">
-                                            <p>HIGH BEAMS TAKEOVER</p>
-                                            <p>Miss Lily's</p>
-                                        </div>
-                                        <img src="/assets/images/gallery/takeover-tingaling-09.jpg" />
-                                    </div>
-                                    <div class="grid-item">
-                                        <div class="red"></div>
-                                        <div class="description">
-                                            <p>HIGH BEAMS TAKEOVER</p>
-                                            <p>Miss Lily's</p>
-                                        </div>
-                                        <img src="/assets/images/gallery/takeover-tingaling-04.jpg" />
-                                    </div>
-
-                                    <div class="grid-item">
-                                        <div class="red"></div>
-                                        <div class="description">
-                                            <p>RUN</p>
-                                            <p>Sports City</p>
-                                        </div>
-                                        <img src="/assets/images/gallery/run-track-08.jpg" />
-                                    </div>
-                                    <div class="grid-item">
-                                        <div class="red"></div>
-                                        <div class="description">
-                                            <p>RUN</p>
-                                            <p>Kite Beach</p>
-                                        </div>
-                                        <img src="/assets/images/gallery/run-kite-02.jpg" />
-                                    </div>
-                                    <div class="grid-item">
-                                        <div class="red"></div>
-                                        <div class="description">
-                                            <p>RUN</p>
-                                            <p>Sports City</p>
-                                        </div>
-                                        <img src="/assets/images/gallery/run-track-04.jpg" />
-                                    </div>
-                                </div>
-
-
-                                <div class="columna">
-                                    <div class="grid-item">
-                                        <div class="red"></div>
-                                        <div class="description">
-                                            <p>RUN</p>
-                                            <p>Dubai Canal</p>
-                                        </div>
-                                        <img src="/assets/images/gallery/run-dubaicanal-07.jpg" />
-                                    </div>
-                                    <div class="grid-item">
-                                        <div class="red"></div>
-                                        <div class="description">
-                                            <p>RUN</p>
-                                            <p>Dubai Canal</p>
-                                        </div>
-                                        <img src="/assets/images/gallery/run-dubaicanal-08.jpg" />
-                                    </div>
-                                    <div class="grid-item">
-                                        <div class="red"></div>
-                                        <div class="description">
-                                            <p>RUN</p>
-                                            <p>Satwa</p>
-                                        </div>
-                                        <img src="/assets/images/gallery/run-satwa-07.jpg" />
-                                    </div>
-                                    <div class="grid-item">
-                                        <div class="red"></div>
-                                        <div class="description">
-                                            <p>RUN</p>
-                                            <p>Satwa</p>
-                                        </div>
-                                        <img src="/assets/images/gallery/run-satwa-08.jpg" />
-                                    </div>
-                                    <div class="grid-item">
-                                        <div class="red"></div>
-                                        <div class="description">
-                                            <p>TRAINING</p>
-                                            <p>Transform Altitude Gym</p>
-                                        </div>
-                                        <img src="/assets/images/gallery/training-tagym-07.jpg" />
-                                    </div>
-                                    <div class="grid-item">
-                                        <div class="red"></div>
-                                        <div class="description">
-                                            <p>TRAINING</p>
-                                            <p>Transform Altitude Gym</p>
-                                        </div>
-                                        <img src="/assets/images/gallery/training-tagym-08.jpg" />
-                                    </div>
-                                    <div class="grid-item">
-                                        <div class="red"></div>
-                                        <div class="description">
-                                            <p>TRAINING</p>
-                                            <p>36 Chambers</p>
-                                        </div>
-                                        <img src="/assets/images/gallery/train-36ch-05.jpg" />
-                                    </div>
-                                    <div class="grid-item">
-                                        <div class="red"></div>
-                                        <div class="description">
-                                            <p>TRAINING</p>
-                                            <p>Renaissance Hotel</p>
-                                        </div>
-                                        <img src="/assets/images/gallery/train-07.jpg" />
-                                    </div>
-                                    <div class="grid-item">
-                                        <div class="red"></div>
-                                        <div class="description">
-                                            <p>TRAINING</p>
-                                            <p>Renaissance Hotel</p>
-                                        </div>
-                                        <img src="/assets/images/gallery/train-08.jpg" />
-                                    </div>
-
-                                    <div class="grid-item">
-                                        <div class="red"></div>
-                                        <div class="description">
-                                            <p>HIGH BEAMS TAKEOVER</p>
-                                            <p>Miss Lily's</p>
-                                        </div>
-                                        <img src="/assets/images/gallery/takeover-tingaling-10.jpg" />
-                                    </div>
-                                    <div class="grid-item">
-                                        <div class="red"></div>
-                                        <div class="description">
-                                            <p>RUN</p>
-                                            <p>Hatta Hills</p>
-                                        </div>
-                                        <img src="/assets/images/gallery/run-hatta-01.jpg" />
-                                    </div>
-                                    <div class="grid-item">
-                                        <div class="red"></div>
-                                        <div class="description">
-                                            <p>RUN</p>
-                                            <p>Hatta Hills</p>
-                                        </div>
-                                        <img src="/assets/images/gallery/run-hatta-02.jpg" />
-                                    </div>
-
-                                    <div class="grid-item">
-                                        <div class="red"></div>
-                                        <div class="description">
-                                            <p>RUN</p>
-                                            <p>Sports City</p>
-                                        </div>
-                                        <img src="/assets/images/gallery/run-track-09.jpg" />
-                                    </div>
-                                    <div class="grid-item">
-                                        <div class="red"></div>
-                                        <div class="description">
-                                            <p>HIGH BEAMS TAKEOVER</p>
-                                            <p>Miss Lily's</p>
-                                        </div>
-                                        <img src="/assets/images/gallery/takeover-tingaling-12.jpg" />
-                                    </div>
-                                    <div class="grid-item">
-                                        <div class="red"></div>
-                                        <div class="description">
-                                            <p>RUN</p>
-                                            <p>Capetown</p>
-                                        </div>
-                                        <img src="/assets/images/gallery/run-capetown-03.jpg" />
-                                    </div>
-
-
-                                    <div class="grid-item">
-                                        <div class="red"></div>
-                                        <div class="description">
-                                            <p>RUN</p>
-                                            <p>Sports City</p>
-                                        </div>
-                                        <img src="/assets/images/gallery/run-track-10.jpg" />
-                                    </div>
-                                    <div class="grid-item">
-                                        <div class="red"></div>
-                                        <div class="description">
-                                            <p>HIGH BEAMS TAKEOVER</p>
-                                            <p>Miss Lily's</p>
-                                        </div>
-                                        <img src="/assets/images/gallery/takeover-tingaling-13.jpg" />
-                                    </div>
-
-                                    <div class="grid-item">
-                                        <div class="red"></div>
-                                        <div class="description">
-                                            <p>RUN</p>
-                                            <p>Sports City</p>
-                                        </div>
-                                        <img src="/assets/images/gallery/run-track-11.jpg" />
-                                    </div>
-                                    <div class="grid-item">
-                                        <div class="red"></div>
-                                        <div class="description">
-                                            <p>RUN</p>
-                                            <p>Kite Beach</p>
-                                        </div>
-                                        <img src="/assets/images/gallery/run-kite-07.jpg" />
-                                    </div>
-                                    <div class="grid-item">
-                                        <div class="red"></div>
-                                        <div class="description">
-                                            <p>RUN</p>
-                                            <p>Dubai Water Canal</p>
-                                        </div>
-                                        <img src="/assets/images/gallery/run-water-canal-03.jpg" />
-                                    </div>
-
-                                    <div class="grid-item">
-                                        <div class="red"></div>
-                                        <div class="description">
-                                            <p>RUN</p>
-                                            <p>Kite Beach</p>
-                                        </div>
-                                        <img src="/assets/images/gallery/run-kite-03.jpg" />
-                                    </div>
-                                    <div class="grid-item">
-                                        <div class="red"></div>
-                                        <div class="description">
-                                            <p>RUN</p>
-                                            <p>Capetown</p>
-                                        </div>
-                                        <img src="/assets/images/gallery/run-capetown-04.jpg" />
-                                    </div>
-
-                                    <div class="grid-item">
-                                        <div class="red"></div>
-                                        <div class="description">
-                                            <p>RUN</p>
-                                            <p>Dubai Water Canal</p>
-                                        </div>
-                                        <img src="/assets/images/gallery/run-water-canal-04.jpg" />
-                                    </div>
-
-                                    <div class="grid-item">
-                                        <div class="red"></div>
-                                        <div class="description">
-                                            <p>RUN</p>
-                                            <p>Kite Beach</p>
-                                        </div>
-                                        <img src="/assets/images/gallery/run-kite-06.jpg" />
-                                    </div>
-                                </div>
-
-
-
-                            </div>
-
-
-
-
-
-
-                        </div>
+              <div class="renglon">
+                <div class="columna">
+                  <div class="grid-item">
+                    <div class="red"></div>
+                    <div class="description">
+                      <p></p>
+                      <p></p>
                     </div>
-                </div>
-            </div>
-        </div>
+                    <img src="/assets/images/gallery/new-01.jpg" />
+                  </div>
+                  <div class="grid-item">
+                    <div class="red"></div>
+                    <div class="description">
+                      <p></p>
+                      <p></p>
+                    </div>
+                    <img src="/assets/images/gallery/new-02.jpg" />
+                  </div>
+                  <div class="grid-item">
+                    <div class="red"></div>
+                    <div class="description">
+                      <p></p>
+                      <p></p>
+                    </div>
+                    <img src="/assets/images/gallery/new-03.jpg" />
+                  </div>
 
+                  <div class="grid-item">
+                    <div class="red"></div>
+                    <div class="description">
+                      <p>RUN</p>
+                      <p>Dubai Canal</p>
+                    </div>
+                    <img src="/assets/images/gallery/run-dubaicanal-05.jpg" />
+                  </div>
+
+                  <div class="grid-item">
+                    <div class="red"></div>
+                    <div class="description">
+                      <p>RUN</p>
+                      <p>Satwa</p>
+                    </div>
+                    <img src="/assets/images/gallery/run-satwa-05.jpg" />
+                  </div>
+                  <div class="grid-item">
+                    <div class="red"></div>
+                    <div class="description">
+                      <p>RUN</p>
+                      <p>Satwa</p>
+                    </div>
+                    <img src="/assets/images/gallery/run-satwa-06.jpg" />
+                  </div>
+
+                  <div class="grid-item">
+                    <div class="red"></div>
+                    <div class="description">
+                      <p>HIGH BEAMS TAKEOVER</p>
+                      <p>Miss Lily's</p>
+                    </div>
+                    <img
+                      src="/assets/images/gallery/takeover-tingaling-07.jpg"
+                    />
+                  </div>
+                </div>
+
+                <div class="columna">
+                  <div class="grid-item">
+                    <div class="red"></div>
+                    <div class="description">
+                      <p></p>
+                      <p></p>
+                    </div>
+                    <img src="/assets/images/gallery/new-04.jpg" />
+                  </div>
+                  <div class="grid-item">
+                    <div class="red"></div>
+                    <div class="description">
+                      <p></p>
+                      <p></p>
+                    </div>
+                    <img src="/assets/images/gallery/new-05.jpg" />
+                  </div>
+                  <div class="grid-item">
+                    <div class="red"></div>
+                    <div class="description">
+                      <p></p>
+                      <p></p>
+                    </div>
+                    <img src="/assets/images/gallery/new-06.jpg" />
+                  </div>
+                  <div class="grid-item">
+                    <div class="red"></div>
+                    <div class="description">
+                      <p>RUN</p>
+                      <p>Kite Beach</p>
+                    </div>
+                    <img src="/assets/images/gallery/run-kite-01.jpg" />
+                  </div>
+
+                  <div class="grid-item">
+                    <div class="red"></div>
+                    <div class="description">
+                      <p>RUN</p>
+                      <p>Sports City</p>
+                    </div>
+                    <img src="/assets/images/gallery/run-track-07.jpg" />
+                  </div>
+                  <div class="grid-item">
+                    <div class="red"></div>
+                    <div class="description">
+                      <p>RUN</p>
+                      <p>Dubai Water Canal</p>
+                    </div>
+                    <img src="/assets/images/gallery/run-water-canal-02.jpg" />
+                  </div>
+
+                  <div class="grid-item">
+                    <div class="red"></div>
+                    <div class="description">
+                      <p>HIGH BEAMS TAKEOVER</p>
+                      <p>Miss Lily's</p>
+                    </div>
+                    <img
+                      src="/assets/images/gallery/takeover-tingaling-09.jpg"
+                    />
+                  </div>
+                </div>
+
+                <div class="columna">
+                  <div class="grid-item">
+                    <div class="red"></div>
+                    <div class="description">
+                      <p></p>
+                      <p></p>
+                    </div>
+                    <img src="/assets/images/gallery/new-07.jpg" />
+                  </div>
+                  <div class="grid-item">
+                    <div class="red"></div>
+                    <div class="description">
+                      <p></p>
+                      <p></p>
+                    </div>
+                    <img src="/assets/images/gallery/new-08.jpg" />
+                  </div>
+                  <div class="grid-item">
+                    <div class="red"></div>
+                    <div class="description">
+                      <p></p>
+                      <p></p>
+                    </div>
+                    <img src="/assets/images/gallery/new-09.jpg" />
+                  </div>
+                  <div class="grid-item">
+                    <div class="red"></div>
+                    <div class="description">
+                      <p></p>
+                      <p></p>
+                    </div>
+                    <img src="/assets/images/gallery/new-10.jpg" />
+                  </div>
+                  <div class="grid-item">
+                    <div class="red"></div>
+                    <div class="description">
+                      <p>RUN</p>
+                      <p>Kite Beach</p>
+                    </div>
+                    <img src="/assets/images/gallery/run-kite-02.jpg" />
+                  </div>
+                  <div class="grid-item">
+                    <div class="red"></div>
+                    <div class="description">
+                      <p>TRAINING</p>
+                      <p>36 Chambers</p>
+                    </div>
+                    <img src="/assets/images/gallery/train-36ch-05.jpg" />
+                  </div>
+
+                  <div class="grid-item">
+                    <div class="red"></div>
+                    <div class="description">
+                      <p>RUN</p>
+                      <p>Hatta Hills</p>
+                    </div>
+                    <img src="/assets/images/gallery/run-hatta-02.jpg" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="dirt-white"></div>
-    <app-footer-white></app-footer-white>
+  </div>
+  <div class="dirt-white"></div>
+  <app-footer-white></app-footer-white>
 </div>
